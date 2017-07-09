@@ -3,8 +3,8 @@ var util = require('util');
 
 /* CONFIGURATION */
 var config = {
-	gcpProjectId: '',
-	gcpPubSubSubscriptionName: '',
+	gcpProjectId: 'getafix-1495333458653',
+	gcpPubSubSubscriptionName: 'projects/getafix-1495333458653/subscriptions/Datastore',
 	gcpServiceAccountKeyFilePath: './gcp_private_key.json'
 }
 _checkConfig();
